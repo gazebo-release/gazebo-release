@@ -33,7 +33,8 @@ Build-Depends: cmake,
      libavformat-dev,
      libavcodec-dev,
      libswscale-dev,
-     sdformat-prerelease (>= 1.4.7~)
+     ruby-ronn,
+     sdformat (>= 1.4.7~)
 Vcs-Browser: https://bitbucket.org/osrf/gazebo-release
 Vcs-Hg: https://bitbucket.org/osrf/gazebo-release
 Homepage: http://gazebosim.org
@@ -70,11 +71,11 @@ Depends: libfreeimage3,
      libavformat53 | libavformat-extra-53,
      libavcodec53 | libavcodec-extra-53,
      libswscale2 | libswscale-extra-2,
-     sdformat-prerelease (>= 1.4.7~),
+     sdformat (>= 1.4.7~),
      ttf-dejavu-core,
      ${misc:Depends}
 Provides: gazebo-provider
-Conflicts: gazebo, gazebo-current, gazebo-nightly
+Conflicts: gazebo, gazebo-current, gazebo-current-prerlease, gazebo-nightly
 Breaks:  drcsim (<= 3.0.0-1),
          ros-hydro-gazebo-plugins (<< 2.3.3),
          ros-hydro-gazebo-ros (<< 2.3.3)
