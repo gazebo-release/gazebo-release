@@ -1,3 +1,9 @@
+gazebo-prerelease (1.9.3-1~saucy) saucy; urgency=high
+
+  * Release 1.9.3-1
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 9 Jan 2014 03:50:00 -0700
+
 gazebo (1.9.2-1~saucy) saucy; urgency=high
 
   * Release 1.9.2-1
